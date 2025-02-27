@@ -7,13 +7,18 @@
     <title>QR generator</title>
 </head>
 <body>
+    <%- include("partials/header.ejs") %>
     <div class="qrcont">
-        <img src="<%= final_img %>" alt="">
+        <img src="/Qrcode.png" alt="">
     </div>
     <div class="frm">
     <form action="/submit" method="post">
-        <input type="text" name="url_hold" placeholder="Enter your URL here">
+        <input type="text" name="url_hold" placeholder="Enter your URL here"  autofocus>
         <button type="submit">Generate</button>
+        <a href="/Qrcode.png" download="QRcode">
+            <button type="button">Download</button>
+        </a>
+        
     </form>
     </div>
 </body>
