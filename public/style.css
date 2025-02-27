@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: poppins;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom right,#F2F0E6,#7E8C54 55%);
+}
+
+.qrcont{
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.frm input{
+    text-align: center;
+    display: block;
+    background-color: #EAE0C8;
+    border: none;
+    margin: 30px 8px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: black;
+    transition: all 200ms ease;
+    outline: none;
+}
+
+.frm input:hover{
+    transform: scale(1.2);
+    box-shadow: 8px 3px 10px lightgray;
+}
+
+.frm button{
+    border-radius: 8px;
+    background-color: #EAE0C8;
+    color: #40826D;
+    border: none;
+    padding: 5px 10px;
+    transition: all 200ms ease;
+    cursor: pointer;
+    outline: none;
+}
+
+.frm button:hover{
+background-color: #40826D;
+color: black;
+box-shadow: 5px 3px 10px lightgray;
+}

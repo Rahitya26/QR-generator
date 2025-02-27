@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR generator</title>
+</head>
+<body>
+    <div class="qrcont">
+        <img src="<%= final_img %>" alt="">
+    </div>
+    <div class="frm">
+    <form action="/submit" method="post">
+        <input type="text" name="url_hold" placeholder="Enter your URL here">
+        <button type="submit">Generate</button>
+    </form>
+    </div>
+</body>
+</html>
