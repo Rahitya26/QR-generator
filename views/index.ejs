@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>QR generator</title>
+    <title>QR Generator</title>
 </head>
 <body>
     <%- include("partials/header.ejs") %>
+    
     <div class="qrcont">
         <h3>QR code appears here</h3>
     </div>
+
     <div class="frm">
-    <form action="/submit" method="post">
-        <input type="text" name="url_hold" placeholder="Enter your URL here" required autofocus>
-        <button type="submit">Generate</button>
-    </form>
+        <form action="/submit" method="post">
+            <input type="text" name="url_hold" placeholder="Enter your URL here" required autofocus>
+            <button type="submit">Generate</button>
+        </form>
     </div>
 </body>
 </html>

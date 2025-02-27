@@ -12,8 +12,8 @@ body{
 }
 
 .qrcont{
-    width: 40%;
-    height: 50%;
+    width: 35%;
+    height: 45%;
     margin: auto;
     margin-top: 130px;
     border-radius: 12px;
@@ -80,3 +80,19 @@ box-shadow: 5px 3px 10px lightgray;
     text-decoration: none;
     color: antiquewhite;
 }
+
+@media(max-width:375px){
+    .qrcont{
+        width: 70%;
+    }
+    img{
+        height: 150px;
+    }
+}
+
+@media(max-width:425px){
+    .qrcont{
+        width: 65%;
+    }
+}
+
